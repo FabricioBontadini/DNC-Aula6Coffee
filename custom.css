@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(241, 236, 236);
+}
+.card{
+    background-color:white;
+    width: 80px;
+        height: 560px;
+        padding: 0;
+}
+
+.card:hover button {
+visibility: visible;
+transition: 8s;
+}
+
+main section button{
+visibility: hidden;
+transition: 8s;
+}
+
+
+dialog::backdrop{
+    background-color: rgba(0, 0, 0, 0.671)
+}
+
+#dialogModal{
+color: rgb(26, 26, 26) ; 
+border: none;
+border-radius: 20px;
+width: 600px;
+height: 500px;
+margin-top: 60px;
+transition: 2s;
+}
+
+h2{
+    text-align: center;
+    margin-top: 45px;
+    font-family:'Montserrat', sans-serif;
+    font-size: 39px;
+    font-weight: 700px;
+}
+
+dialog p{
+    color: rgb(26, 26, 26) ;
+    text-align: center;
+    margin-top: 65px;
+    font-family:'Montserrat', sans-serif;
+    font-size: 23px;
+    font-weight: 100px;
+}
+dialog button{
+    display: flex;
+    justify-content: center;
+    color: rgb(26, 26, 26) ;
+    align-items: center;
+    margin-top: 65px;
+    font-family:'Montserrat', sans-serif;
+    font-size: 23px;
+    font-weight: 100px;
+    
+}
+#closex{
+    display: flex;
+    justify-content:right;
+    margin-right: 25px;
+    margin-top: 15px;
+    font-size: 24px;
+    cursor:pointer
+}
+.buttonsale{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+
+        
+        
+}
+
